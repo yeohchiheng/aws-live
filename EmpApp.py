@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 from pymysql import connections
 import os
 import boto3
+import http-methods
 from config import *
 
 app = Flask(__name__)
