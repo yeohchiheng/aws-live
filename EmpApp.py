@@ -26,7 +26,7 @@ def home():
     return render_template('AddEmp.html')
 
 
-@app.route("/about", methods=['POST'])
+@app.route("/about", methods=['POST','HEAD'])
 def about():
     return render_template('https://www.youtube.com/watch?v=6yrOqt0smVU')
 
