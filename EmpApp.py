@@ -2,7 +2,6 @@ from flask import Flask, render_template, request
 from pymysql import connections
 import os
 import boto3
-import http-methods
 from config import *
 
 app = Flask(__name__)
@@ -27,7 +26,7 @@ def home():
     return render_template('AddEmp.html')
 
 
-@app.route("/about", methods=['GET','POST','HEAD'])
+@app.route("/about", methods=['GET','POST','HEAD'],Allow: <http-methods>)
 def about():
     return render_template('https://www.youtube.com/watch?v=6yrOqt0smVU')
 
