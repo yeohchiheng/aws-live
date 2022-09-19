@@ -28,7 +28,7 @@ def home():
 
 @app.route("/about", methods=['POST'])
 def about():
-    return render_template('www.intellipaat.com')
+    return render_template('https://www.youtube.com/watch?v=6yrOqt0smVU')
 
 
 @app.route("/addemp", methods=['POST'])
