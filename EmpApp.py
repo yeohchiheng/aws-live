@@ -21,7 +21,7 @@ output = {}
 table = 'employee'
 
 
-@app.route("/getemp", methods=['POST','GET','HEAD'])
+@app.route("/addemp/getemp", methods=['POST','GET','HEAD'])
 def GetEmp():
     return render_template('GetEmp.html')
 
