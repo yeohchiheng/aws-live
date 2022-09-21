@@ -26,7 +26,7 @@ def GetEmp():
     return render_template('GetEmp.html')
 
 
-@app.route("/about", methods=['POST'])
+@app.route("http://34.201.13.155/about", methods=['POST'])
 def about():
     return render_template('www.intellipaat.com')
 
