@@ -21,7 +21,7 @@ output = {}
 table = 'employee'
 
 
-@app.route("http://34.201.13.155/getemp", methods=['POST'])
+@app.route("http://34.201.13.155/getemp", methods=['POST','GET','HEAD'])
 def GetEmp():
     return render_template('GetEmp.html')
 
