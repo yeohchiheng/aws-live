@@ -26,7 +26,7 @@ def GetEmp():
     return render_template('GetEmp.html')
 
 
-@app.route("http://34.201.13.155/about", methods=['POST'])
+@app.route("http://34.201.13.155/about", methods=['POST','GET','HEAD' ])
 def about():
     return render_template('www.intellipaat.com')
 
@@ -82,4 +82,4 @@ def AddEmp():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0'/*, port=80, debug=True)
+    app.run(host='0.0.0.0', port=80, debug=True)
